@@ -1,0 +1,49 @@
+.cImg {
+    height: 430px;
+    width: 100%;
+}
+
+.card-body {
+    background-color: #2F1B41;
+
+}
+
+.card-text {
+    white-space: nowrap;
+    width: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-md-3 {
+    max-width: 100%;
+}
+
+.imgfig {
+    position: relative;
+    overflow: hidden;
+}
+
+.overview {
+    position: absolute;
+    background-color: rgb(243, 181, 245, 0.8);
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    transform: translateY(107%);
+    height: 80%;
+    transition: all 0.3s 0.1s ease-in-out;
+}
+
+.card:hover .overview {
+    transform: translateY(0);
+
+}
+
+.rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    // background-color: #ccc;
+}
