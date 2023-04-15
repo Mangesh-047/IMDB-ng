@@ -7,7 +7,7 @@ import { Imovie } from '../models/movie';
 export class SearchMoviePipe implements PipeTransform {
 
   transform(value: Imovie[], searchInput: string) {
-    console.log(searchInput);
+    // console.log(searchInput);
 
 
     if (!value) {
