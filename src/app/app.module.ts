@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     MovieCardComponent,
-    SearchMoviePipe
+    SearchMoviePipe,
   ],
   imports: [
     BrowserModule,
